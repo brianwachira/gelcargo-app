@@ -29,6 +29,25 @@ export default function App() {
       90: 0.9,
       95: 0.95,
       100: 1,
+    },
+    fontConfig: {
+      Montserrat: {
+        400: {
+          normal: 'montserrat-regular',
+        },
+        500: {
+          normal: 'montserrat-medium',
+        },
+        600: {
+          normal: 'montserrat-semibold',
+        },
+        700: {
+          normal: 'montserrat-bold'
+        },
+        800: {
+          normal: 'montserrat-extrabold'
+        }
+      }
     }
   })
 
